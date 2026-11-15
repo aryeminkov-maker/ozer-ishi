@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>העוזר האישי – אריה מינקוב</title>
+<meta name="description" content="העוזר האישי – אריה מינקוב: עוזר אישי בוואטסאפ לניהול יומן, פגישות, תזכורות ומשימות.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --ink: #17202a;
+    --mute: #5d6b7a;
+    --line: #e2e7ec;
+    --acc: #0f7b5f;
+    --acc-soft: #e6f4ef;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0f1419; --card: #182028; --ink: #e8edf2; --mute: #9aa8b6; --line: #283340; --acc: #3fcf9f; --acc-soft: #14302a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1419; --card: #182028; --ink: #e8edf2; --mute: #9aa8b6; --line: #283340; --acc: #3fcf9f; --acc-soft: #14302a;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 "Heebo", Arial, sans-serif; }
+  a { color: var(--acc); }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+  header { border-bottom: 1px solid var(--line); background: var(--card); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 14px; padding-bottom: 14px; flex-wrap: wrap; }
+  .brand { font-weight: 800; font-size: 18px; text-decoration: none; color: var(--ink); }
+  nav { display: flex; gap: 16px; flex-wrap: wrap; font-size: 15px; }
+  nav a { text-decoration: none; color: var(--mute); }
+  nav a:hover { color: var(--acc); }
+  .hero { padding: 56px 0 36px; }
+  .hero h1 { font-size: clamp(28px, 5vw, 40px); line-height: 1.25; margin: 0 0 14px; }
+  .hero p { font-size: 18px; color: var(--mute); margin: 0; max-width: 640px; }
+  section { padding: 28px 0; }
+  h2 { font-size: 24px; margin: 0 0 14px; }
+  h3 { font-size: 18px; margin: 22px 0 6px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+  .card b { display: block; margin-bottom: 4px; }
+  .card span { color: var(--mute); font-size: 15px; }
+  ol.steps { padding-inline-start: 20px; margin: 0; }
+  ol.steps li { margin-bottom: 8px; }
+  .doc { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 22px; }
+  .doc p, .doc li { color: var(--ink); }
+  .doc ul { padding-inline-start: 20px; }
+  .meta { color: var(--mute); font-size: 14px; }
+  .en { direction: ltr; text-align: left; }
+  .pill { display: inline-block; background: var(--acc-soft); color: var(--acc); border-radius: 999px; padding: 2px 12px; font-size: 14px; font-weight: 500; margin-bottom: 14px; }
+  footer { border-top: 1px solid var(--line); margin-top: 32px; padding: 22px 0 40px; color: var(--mute); font-size: 14px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#">העוזר האישי – אריה מינקוב</a>
+    <nav>
+      <a href="#about">אודות</a>
+      <a href="#privacy">מדיניות פרטיות</a>
+      <a href="#terms">תנאי שימוש</a>
+      <a href="#delete">מחיקת מידע</a>
+      <a href="#contact">צור קשר</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="hero">
+    <span class="pill">שירות פרטי · בהזמנה בלבד</span>
+    <h1>עוזר אישי בוואטסאפ לניהול היומן והיום שלך</h1>
+    <p>העוזר האישי של אריה מינקוב מאפשר לקבוע ולנהל פגישות, לקבל תזכורות ולנהל משימות ורשימות – בהודעה כתובה או קולית בוואטסאפ, בעברית פשוטה.</p>
+  </div>
+
+  <section id="about">
+    <h2>מה העוזר עושה</h2>
+    <div class="grid">
+      <div class="card"><b>📅 יומן ופגישות</b><span>קביעה, דחייה וביטול של פגישות ביומן, ושליחת זימונים למשתתפים.</span></div>
+      <div class="card"><b>⏰ תזכורות</b><span>תזכורות לפני פגישות ותזכורות חופשיות במועד שנקבע.</span></div>
+      <div class="card"><b>📝 פתקים ורשימות</b><span>שמירת מידע, רשימות משימות וקניות, וחיפוש מהיר.</span></div>
+      <div class="card"><b>✡️ לוח עברי</b><span>תאריכים עבריים, חגים וזמני שבת, והתחשבות בהם בקביעת פגישות.</span></div>
+    </div>
+
+    <h3>איך זה עובד</h3>
+    <ol class="steps">
+      <li>השירות פרטי ופועל בהזמנה בלבד – רק משתמשים שאושרו על ידי מפעיל השירות יכולים להשתמש בו.</li>
+      <li>המשתמש שולח הודעה למספר הוואטסאפ של העוזר.</li>
+      <li>העוזר מבין את הבקשה, מבצע אותה (למשל קובע פגישה ביומן) ומאשר בהודעה חוזרת.</li>
+      <li>העוזר שולח הודעות רק למשתמשים רשומים, ורק בנושאים שהם ביקשו – ללא פרסום וללא הודעות שיווקיות.</li>
+    </ol>
+  </section>
+
+  <section id="privacy">
+    <h2>מדיניות פרטיות</h2>
+    <div class="doc">
+      <p class="meta">עודכן לאחרונה: 15 בנובמבר 2026</p>
+      <p>מדיניות זו מסבירה איזה מידע אוסף העוזר האישי של אריה מינקוב ("השירות"), כיצד הוא משמש ומה זכויותיך.</p>
+
+      <h3>איזה מידע נאסף</h3>
+      <ul>
+        <li>מספר הטלפון והשם המוצג בוואטסאפ של משתמשים רשומים.</li>
+        <li>תוכן ההודעות שהמשתמש שולח לשירות (טקסט, הודעות קוליות, תמונות וקבצים), לצורך ביצוע הבקשה.</li>
+        <li>פרטי יומן (פגישות, משתתפים, מועדים) – רק אם המשתמש חיבר את היומן שלו ואישר זאת במפורש.</li>
+        <li>מידע שהמשתמש ביקש לשמור: תזכורות, פתקים, רשימות, אנשי קשר והגדרות אישיות.</li>
+      </ul>
+
+      <h3>למה המידע משמש</h3>
+      <ul>
+        <li>אך ורק לביצוע הבקשות של המשתמש ולמתן השירות.</li>
+        <li>המידע אינו נמכר, אינו מושכר ואינו משמש לפרסום או לשיווק.</li>
+      </ul>
+
+      <h3>שירותים חיצוניים</h3>
+      <p>כדי לפעול, השירות נעזר בספקים הבאים, וכל אחד מהם מעבד מידע בהתאם למדיניות שלו:</p>
+      <ul>
+        <li><b>WhatsApp / Meta</b> – העברת ההודעות.</li>
+        <li><b>Google</b> – שמירת נתוני השירות (Google Workspace / Apps Script), יומן גוגל למי שבחר בו, ועיבוד הבקשות באמצעות מודל הבינה המלאכותית Gemini. בהתאם לתנאי Google, תוכן שנשלח לגרסה החינמית של Gemini עשוי לשמש את Google לשיפור שירותיה.</li>
+        <li><b>Microsoft</b> – גישה ליומן Outlook, רק למשתמשים שחיברו אותו ואישרו זאת.</li>
+        <li><b>Cloudflare</b> – העברה מאובטחת של הודעות בין וואטסאפ לשירות.</li>
+      </ul>
+
+      <h3>שמירה ואבטחה</h3>
+      <ul>
+        <li>המידע נשמר בחשבון Google ייעודי של השירות, והגישה אליו מוגבלת למפעיל השירות.</li>
+        <li>הרשאות ליומן נשמרות באופן מאובטח וניתנות לביטול בכל עת.</li>
+        <li>יומני פעילות טכניים נמחקים באופן שוטף.</li>
+      </ul>
+
+      <h3>הזכויות שלך</h3>
+      <p>ניתן לבקש בכל עת לעיין במידע שנשמר עליך, לתקן אותו או למחוק אותו – ראו <a href="#delete">מחיקת מידע</a>.</p>
+    </div>
+  </section>
+
+  <section id="terms">
+    <h2>תנאי שימוש</h2>
+    <div class="doc">
+      <ul>
+        <li>השירות פרטי וניתן רק למשתמשים שאושרו על ידי מפעיל השירות. המפעיל רשאי להפסיק גישה בכל עת.</li>
+        <li>השירות ניתן כמות שהוא (AS IS). מומלץ לוודא פרטים חשובים, כמו מועדי פגישות, ביומן עצמו.</li>
+        <li>אין להשתמש בשירות לשליחת הודעות שיווקיות, לא רצויות או בניגוד לחוק.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="delete">
+    <h2>מחיקת מידע</h2>
+    <div class="doc">
+      <p>כדי למחוק את המידע שלך מהשירות:</p>
+      <ol class="steps">
+        <li>שלח בקשה במייל לכתובת שמופיעה ב<a href="#contact">צור קשר</a>, או הודעה למפעיל השירות, וציין את מספר הטלפון שלך.</li>
+        <li>המידע שלך (פרטי משתמש, תזכורות, פתקים, רשימות והרשאות יומן) יימחק תוך 30 ימים, ותקבל אישור על כך.</li>
+        <li>אפשר גם לבטל בעצמך את הגישה ליומן: ביומן גוגל – בהגדרות השיתוף; ב-Microsoft – בדף "האפליקציות שלי" בחשבון.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>צור קשר</h2>
+    <div class="doc">
+      <p>מפעיל השירות: אריה מינקוב</p>
+      <p>מייל: <a id="mail" href="#"></a></p>
+    </div>
+  </section>
+
+  <section class="en" id="privacy-en">
+    <h2>Privacy Policy (English summary)</h2>
+    <div class="doc">
+      <p class="meta">Last updated: November 15, 2026</p>
+      <p><b>Personal Assistant – Arye Minkov</b> is a private, invitation-only WhatsApp assistant for managing calendars, meetings, reminders, notes and lists.</p>
+      <ul>
+        <li><b>Data collected:</b> registered users' phone number and WhatsApp display name; the content of messages they send (text, voice, images, files); calendar data only if the user explicitly connects their calendar; reminders, notes, lists and settings the user asks to save.</li>
+        <li><b>Use:</b> solely to perform the user's requests. Data is never sold, rented, or used for advertising or marketing.</li>
+        <li><b>Processors:</b> WhatsApp/Meta (messaging), Google (data storage, Google Calendar, and the Gemini AI model – content sent to the free tier of Gemini may be used by Google to improve its services), Microsoft (Outlook calendar, only if connected), Cloudflare (secure message relay).</li>
+        <li><b>Security:</b> data is stored in a dedicated Google account with access limited to the operator; calendar authorizations can be revoked at any time.</li>
+        <li><b>Data deletion:</b> email the address below or message the operator with your phone number; your data will be deleted within 30 days and you will receive confirmation.</li>
+        <li><b>Contact:</b> Arye Minkov – <a id="mail-en" href="#"></a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">© 2026 העוזר האישי – אריה מינקוב · <a href="#privacy">מדיניות פרטיות</a> · <a href="#terms">תנאי שימוש</a> · <a href="#delete">מחיקת מידע</a></div>
+</footer>
+
+<script>
+  // ===== להחליף כאן לכתובת המייל ליצירת קשר (מופיעה בכל הדף) =====
+  const CONTACT_EMAIL = "yeo1216@gmail.com";
+  // ================================================================
+  ["mail", "mail-en"].forEach(function (id) {
+    const a = document.getElementById(id);
+    a.textContent = CONTACT_EMAIL;
+    a.href = "mailto:" + CONTACT_EMAIL;
+  });
+</script>
+</body>
+</html>
